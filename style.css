@@ -22,7 +22,7 @@ color: white;
 h4 {
 font-family: aminofont;
 color: black;
-text-align: left;
+text-align: center;
 }
 img {
     display: block;
@@ -33,15 +33,16 @@ img {
 }
 .music-container {
   background-color: #000000;
-  display: flex;
-  padding: 20px 30px;
+  display: table;
   position: relative;
-  margin: 100px 0;
+  align-content: center;
+  margin: 30px 0 100px 0;
   z-index: 10;
 }
 
 .img-container {
-  position: relative;
+  position: center;
+  justify-content: center;
   width: 200px;
 }
 
@@ -50,10 +51,9 @@ img {
   object-fit: cover;
   height: 200px;
   width: inherit;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  animation: rotate 3s linear infinite;
+  position: relative;
+
+  animation: rotate 5s linear infinite;
 
   animation-play-state: paused;
 }
@@ -105,19 +105,19 @@ img {
   background-color: #87ff62;
   border-radius: 15px 15px 15px 15px;
   position: absolute;
-  top: -70px;
-  left: 180px;
-  width: calc(100% - 300px);
-  padding: 10px 20px 10px 50px;
+  top: 310px;
+  left: 0;
+  width: calc(100% - 100px);
+  padding: 10px 20px 10px 20px;
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateY(-300%);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
   z-index: 0;
 }
 
 .music-container.play .music-info {
   opacity: 1;
-  transform: translateX(0%);
+  transform: translateY(0%);
 }
 
 .music-info h4 {
