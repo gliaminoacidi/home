@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['A A A', 'Rimbombambotto', 'Bonne', 'Donca e Quattrini', 'Finally', 'Deep Miracles', 'Intro 1', 'Intro 3'];
+const songs = ['Basso Moroder', 'Intro 2', 'Rasta Monkey', 'Error Code', 'Ah Ah Ah Ah', 'Keys', 'Triangle', '420', 'Post', 'A A A', 'Rimbombambotto', 'Bonne', 'Donca e Quattrini', 'Finally', 'Deep Miracles', 'Intro 1', 'Intro 3'];
 
 // Keep track of song
 let songIndex = 0;
