@@ -134,7 +134,7 @@ img {
 }
 
 .progress-container {
-  background: black;
+  background: white;
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0;
@@ -143,7 +143,7 @@ img {
 }
 
 .progress {
-  background-color: white;
+  background-color: black;
   border-radius: 5px;
   height: 100%;
   width: 0%;
