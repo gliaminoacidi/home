@@ -30,6 +30,7 @@ function loadSong(song) {
 // Play song
 function playSong() {
   musicContainer.classList.add('play');
+  playBtn.classList.add('play');
   playBtn.querySelector('i.fas').classList.remove('fa-play');
   playBtn.querySelector('i.fas').classList.add('fa-pause');
 
@@ -39,6 +40,7 @@ function playSong() {
 // Pause song
 function pauseSong() {
   musicContainer.classList.remove('play');
+  playBtn.classList.remove('play');
   playBtn.querySelector('i.fas').classList.add('fa-play');
   playBtn.querySelector('i.fas').classList.remove('fa-pause');
 
