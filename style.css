@@ -12,7 +12,6 @@ body {
 @font-face {
   font-family: aminofont;
   src: url(OstrichSans-Heavy.otf);
-  font-weight: bold;
 }
 
 div {
